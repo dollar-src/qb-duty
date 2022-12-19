@@ -1,0 +1,301 @@
+
+
+@font-face {
+    font-family: 'akrobatbold';
+    src: url('akrobat-bold-webfont.woff2') format('woff2'),
+         url('akrobat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'akrobatextralight';
+    src: url('akrobat-extralight-webfont.woff2') format('woff2'),
+         url('akrobat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+
+    overflow:hidden;
+}
+
+.Container {
+    display: none;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(102deg, rgba(2, 156, 205, 0.937085) -10.2%, #2961C6 56.86%, #1952CC 97.48%, rgba(9, 26, 49, 0.988032) 101.56%, #051A36 101.57%, #0E47D1 101.57%);
+    opacity: 0.9;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.Container2 {
+    display: none;
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(103.55deg, rgba(255, 20, 48, 0.937085) -9.97%, #1A5CD5 60.52%, #D10E31 100.63%, #1952CC 103.22%, #051A36 107.51%);
+opacity: 0.9;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+.jobtext {
+    /* LOS SANTOS POLICE DEPERTMANT */
+
+
+position: absolute;
+width: 1500px;
+height: 72px;
+bottom: 50px;
+
+font-family: 'akrobatbold', sans-serif;
+font-weight: 400px;
+font-size: 60px;
+line-height: 90%;
+/* identical to box height, or 72px */
+bottom: 70px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.jobtextunder {
+    /* LOS SANTOS POLICE DEPERTMANT */
+
+
+position: absolute;
+width: 1500px;
+height: 72px;
+bottom: 0px;
+
+font-family: 'akrobatextralight', sans-serif;
+font-weight: 400px;
+font-size: 60px;
+line-height: 90%;
+/* identical to box height, or 72px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+
+
+.welcometext {
+    position: absolute;
+width: 1009px;
+height: 72px;
+left: 1030px;
+top: -50px;
+
+font-family: 'Akrobat';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 90%;
+/* identical to box height, or 72px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+#nametext {
+
+    /* GUSTAVO FRANK */
+
+
+position: absolute;
+width: 689px;
+height: 114px;
+left: 1373px;
+top: -37px;
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 350;
+font-size: 70px;
+line-height: 90%;
+/* or 63px */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+
+
+#nametextp {
+
+    /* GUSTAVO FRANK */
+
+
+    position: absolute;
+    width: 689px;
+    height: 114px;
+    left: 1373px;
+    top: -37px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 70px;
+    line-height: 90%;
+    /* or 63px */
+    
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+.activetext {
+    /* aCTIVE OFFICERS / */
+
+
+position: absolute;
+width: 579px;
+height: 72px;
+left: 1175px;
+top: 50px;
+
+font-family: 'akrobatbold';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 90%;
+/* identical to box height, or 72px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+#activenumber {
+    position: absolute;
+width: 152px;
+height: 72px;
+left: 1754px;
+top: 45px;
+font-family: 'akrobatbold';
+font-style: normal;
+font-weight: 400;
+font-size: 85px;
+line-height: 90%;
+/* or 81px */
+
+
+color: #FFFFFF;
+}
+#activenumbere {
+    position: absolute;
+width: 152px;
+height: 72px;
+left: 1754px;
+top: 45px;
+font-family: 'akrobatbold';
+font-style: normal;
+font-weight: 400;
+font-size: 85px;
+line-height: 90%;
+/* or 81px */
+
+
+color: #FFFFFF;
+}
+
+
+#dutyonbox {
+    /* Rectangle 1947 */
+
+
+position: absolute;
+width: 705px;
+height: 148px;
+left: 0px;
+top: 456px;
+
+background: rgba(249, 185, 185, 0.49);
+border-radius: 12px;
+}
+
+#dutyoffbox {
+/* Rectangle 1945 */
+
+
+position: absolute;
+width: 705px;
+height: 132.67px;
+left: 0px;
+top: 644px;
+
+background: rgba(103, 165, 209, 0.36);
+border-radius: 12px;
+}
+
+.dutyontext {
+    /* DUTY ON */
+
+
+position: absolute;
+width: 1009px;
+height: 72px;
+left: 205px;
+top: 410px;
+
+font-family: 'Akrobat';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 90%;
+/* identical to box height, or 72px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.dutyofftext {
+    /* duty off */
+
+
+position: absolute;
+width: 1009px;
+height: 72px;
+left: 186px;
+top: 600px;
+
+font-family: 'Akrobat';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 90%;
+/* identical to box height, or 72px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
