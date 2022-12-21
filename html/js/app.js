@@ -19,7 +19,7 @@ dollar.CloseAyarMenu = function() {
 
 
 
-    $.post('https://src-duty/CloseMenu:NuiCallback',JSON.stringify({data: true}));
+    $.post('https://qb-duty/CloseMenu:NuiCallback',JSON.stringify({data: true}));
 };
 
 
@@ -78,6 +78,6 @@ window.addEventListener('message', function(event) {
   })
 
   $(".dutyontext").click(function() {
-    $.post('https://src-duty/src-duty:dutyonclient', JSON.stringify({}))
+    $.post('https://qb-duty/src-duty:dutyonclient', JSON.stringify({}))
     dollar.CloseAyarMenu()
 })
