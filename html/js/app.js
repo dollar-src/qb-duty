@@ -73,7 +73,7 @@ window.addEventListener('message', function(event) {
 
 
     $(".dutyofftext").click(function() {
-      $.post('https://src-duty/src-duty:dutyoffclient', JSON.stringify({}))
+      $.post('https://qb-duty/src-duty:dutyoffclient', JSON.stringify({}))
       dollar.CloseAyarMenu()
   })
 
